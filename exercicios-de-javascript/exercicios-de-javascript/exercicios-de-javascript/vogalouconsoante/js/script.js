@@ -1,7 +1,8 @@
 //// Função para verificar se uma letra é uma vogal ou consoante
 function verificarLetra(letra) {
-    
-    
+
+//Função que aceita letra maiúsculas
+letra = letra.toLowerCase();   
     // Verifica se a letra é uma vogal
     if ('aeiou'.includes(letra)) {
       console.log(`${letra} é uma vogal.`);
